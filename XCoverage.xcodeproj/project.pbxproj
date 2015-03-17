@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F957FAA1AB1F8EA0098264B /* COVCoverageMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F957FA91AB1F8EA0098264B /* COVCoverageMap.m */; };
+		2FB1714D1AB0FFA10051767F /* COVCoverageHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1714C1AB0FFA10051767F /* COVCoverageHelpers.m */; };
+		2FF1A2F21AB0054100806DF9 /* COVCoverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1A2F11AB0054100806DF9 /* COVCoverage.m */; };
+		2FF1A2F51AB00AA700806DF9 /* COVHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1A2F41AB00AA700806DF9 /* COVHighlightView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F6CCBCA1AB37657005235B4 /* COVInternalHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COVInternalHeaders.h; sourceTree = "<group>"; };
+		2F957FA81AB1F8EA0098264B /* COVCoverageMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COVCoverageMap.h; sourceTree = "<group>"; };
+		2F957FA91AB1F8EA0098264B /* COVCoverageMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COVCoverageMap.m; sourceTree = "<group>"; };
+		2FB1714B1AB0FFA10051767F /* COVCoverageHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COVCoverageHelpers.h; sourceTree = "<group>"; };
+		2FB1714C1AB0FFA10051767F /* COVCoverageHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COVCoverageHelpers.m; sourceTree = "<group>"; };
+		2FF1A2E61AB0047F00806DF9 /* XCoverage.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCoverage.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF1A2EA1AB0047F00806DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF1A2F01AB0054100806DF9 /* COVCoverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COVCoverage.h; sourceTree = "<group>"; };
+		2FF1A2F11AB0054100806DF9 /* COVCoverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COVCoverage.m; sourceTree = "<group>"; };
+		2FF1A2F31AB00AA700806DF9 /* COVHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COVHighlightView.h; sourceTree = "<group>"; };
+		2FF1A2F41AB00AA700806DF9 /* COVHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COVHighlightView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF1A2E31AB0047F00806DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF1A2DD1AB0047F00806DF9 = {
+			isa = PBXGroup;
+			children = (
+				2FF1A2E81AB0047F00806DF9 /* XCoverage */,
+				2FF1A2E71AB0047F00806DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF1A2E71AB0047F00806DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1A2E61AB0047F00806DF9 /* XCoverage.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF1A2E81AB0047F00806DF9 /* XCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1A2E91AB0047F00806DF9 /* Supporting Files */,
+				2FF1A2F01AB0054100806DF9 /* COVCoverage.h */,
+				2FF1A2F11AB0054100806DF9 /* COVCoverage.m */,
+				2FF1A2F31AB00AA700806DF9 /* COVHighlightView.h */,
+				2FF1A2F41AB00AA700806DF9 /* COVHighlightView.m */,
+				2FB1714B1AB0FFA10051767F /* COVCoverageHelpers.h */,
+				2FB1714C1AB0FFA10051767F /* COVCoverageHelpers.m */,
+				2F957FA81AB1F8EA0098264B /* COVCoverageMap.h */,
+				2F957FA91AB1F8EA0098264B /* COVCoverageMap.m */,
+				2F6CCBCA1AB37657005235B4 /* COVInternalHeaders.h */,
+			);
+			path = XCoverage;
+			sourceTree = "<group>";
+		};
+		2FF1A2E91AB0047F00806DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FF1A2EA1AB0047F00806DF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF1A2E51AB0047F00806DF9 /* XCoverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF1A2ED1AB0047F00806DF9 /* Build configuration list for PBXNativeTarget "XCoverage" */;
+			buildPhases = (
+				2FF1A2E21AB0047F00806DF9 /* Sources */,
+				2FF1A2E31AB0047F00806DF9 /* Frameworks */,
+				2FF1A2E41AB0047F00806DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCoverage;
+			productName = XCoverage;
+			productReference = 2FF1A2E61AB0047F00806DF9 /* XCoverage.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF1A2DE1AB0047F00806DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = COV;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Dropbox;
+				TargetAttributes = {
+					2FF1A2E51AB0047F00806DF9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2FF1A2E11AB0047F00806DF9 /* Build configuration list for PBXProject "XCoverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FF1A2DD1AB0047F00806DF9;
+			productRefGroup = 2FF1A2E71AB0047F00806DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF1A2E51AB0047F00806DF9 /* XCoverage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF1A2E41AB0047F00806DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF1A2E21AB0047F00806DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB1714D1AB0FFA10051767F /* COVCoverageHelpers.m in Sources */,
+				2F957FAA1AB1F8EA0098264B /* COVCoverageMap.m in Sources */,
+				2FF1A2F51AB00AA700806DF9 /* COVHighlightView.m in Sources */,
+				2FF1A2F21AB0054100806DF9 /* COVCoverage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FF1A2EB1AB0047F00806DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2FF1A2EC1AB0047F00806DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2FF1A2EE1AB0047F00806DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = XCoverage/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		2FF1A2EF1AB0047F00806DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = XCoverage/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF1A2E11AB0047F00806DF9 /* Build configuration list for PBXProject "XCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF1A2EB1AB0047F00806DF9 /* Debug */,
+				2FF1A2EC1AB0047F00806DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF1A2ED1AB0047F00806DF9 /* Build configuration list for PBXNativeTarget "XCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF1A2EE1AB0047F00806DF9 /* Debug */,
+				2FF1A2EF1AB0047F00806DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FF1A2DE1AB0047F00806DF9 /* Project object */;
+}
