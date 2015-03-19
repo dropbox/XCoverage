@@ -32,6 +32,6 @@ This plugin does not actually generate coverage data for you, since there are va
 ![Pre-action](https://github.com/dropbox/XCoverage/raw/master/docs/pre-actions-setup.png)
 
 #####4. Add post-action script to the test section of your scheme
-![Pre-action](https://github.com/dropbox/XCoverage/raw/master/docs/pre-actions-setup.png)
+![Post-action](https://github.com/dropbox/XCoverage/raw/master/docs/post-actions-setup.png)
 
 
