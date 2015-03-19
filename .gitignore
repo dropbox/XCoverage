@@ -19,6 +19,7 @@ DerivedData
 *.xcworkspace
 *.build_vars
 *.pyc
+*.swp
 
 # CocoaPods
 #
