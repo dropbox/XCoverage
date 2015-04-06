@@ -9,6 +9,10 @@ Xcode Plugin that displays coverage data in the text editor
 - By default the plugin will try and find your coverage files, however for the best performance/reliability you can set your own location. The plugin will then use this location and recursively search it for your coverage file matching the source file you are viewing.
 
 ###Installation instructions:
+Install via [Alcatraz](https://github.com/supermarin/Alcatraz)
+
+OR
+
 Open the project in XCode and build it. This should auto-install it for you and just restart XCode to begin using!
 
 To uninstall, delete the XCoverage directory from `~/Library/Application Support/Developer/Shared/Xcode/Plug-ins`
