@@ -67,12 +67,23 @@ static NSString *const COVManualSearchLocation = @"XCoverage-COVManualSearchLoca
 {
     self = [super init];
     if (self) {
-        _serialQueue = dispatch_queue_create("XCoverageQueue", DISPATCH_QUEUE_SERIAL);
-        _previousLocationContext = [[COVPreviousLocationContext alloc] init];
-
-        [self cov_addMenuItems];
+        if([[NSRunningApplication currentApplication] isFinishedLaunching]){
+            [self setup];
+        } else {
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setup) name:NSApplicationDidFinishLaunchingNotification object:nil];
+        }
     }
     return self;
+}
+
+- (void)setup
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NSApplicationDidFinishLaunchingNotification object:nil];
+    
+    _serialQueue = dispatch_queue_create("XCoverageQueue", DISPATCH_QUEUE_SERIAL);
+    _previousLocationContext = [[COVPreviousLocationContext alloc] init];
+    
+    [self cov_addMenuItems];
 }
 
 - (void)dealloc
