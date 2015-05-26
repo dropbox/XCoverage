@@ -78,6 +78,8 @@ static NSString *const COVManualSearchLocation = @"XCoverage-COVManualSearchLoca
 
 - (void)setup
 {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NSApplicationDidFinishLaunchingNotification object:nil];
+    
     _serialQueue = dispatch_queue_create("XCoverageQueue", DISPATCH_QUEUE_SERIAL);
     _previousLocationContext = [[COVPreviousLocationContext alloc] init];
     
